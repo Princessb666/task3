@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoodTown</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>FoodTown</h1>
+    <nav id="nav">
+      <a href="#">Profile</a>
+      <a href="#">Orders</a>
+      <a href="#">Services</a>
+      <a href="#">History</a>
+      <a href="#">Queries</a>
+    </nav>
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <section class="content">
+    <h2>ORDER YOUR FIRST MEAL</h2>
+    <div class="menu">
+      <div class="menu-column">
+        <h3>Starters</h3>
+        <ul>
+          <li>French Fries</li>
+          <li>Samosa</li>
+          <li>Pani Puri</li>
+          <li>Bhel Puri</li>
+        </ul>
+      </div>
+      <div class="menu-column">
+        <h3>Drinks</h3>
+        <ul>
+          <li>Coca Cola</li>
+          <li>Thumbs Up</li>
+          <li>Mirinda</li>
+          <li>Sprite</li>
+        </ul>
+      </div>
+      <div class="menu-column">
+        <h3>Today's Special</h3>
+        <ul>
+          <li>Paneer Tikka</li>
+          <li>Margherita Pizza</li>
+          <li>Garlic Bread</li>
+          <li>Cheesy Corn Pasta</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="poster">
+    <img src="cartoon.png.jpg" alt="Cartoon" class="cartoon">
+    <div class="poster-box">
+      <h2>🎉 Special Offer 🎉</h2>
+      <p>40% OFF on First Two Orders</p>
+      <p>🍔 Buy 2 Get 1 FREE 🍕</p>
+    </div>
+  </section>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("nav").classList.toggle("show");
+    }
+  </script>
+</body>
+</html>
+
+
